@@ -1,12 +1,11 @@
-import React, { FC } from "react";
 import { Main } from "./components/index";
 
-const App: FC = () => {
+function App() {
   return (
     <>
       <Main />
     </>
   );
-};
+}
 
 export default App;

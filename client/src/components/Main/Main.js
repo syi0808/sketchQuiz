@@ -1,7 +1,7 @@
-import React, { FC, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Start from "../../socket/obj/Start";
 
-const Main: FC = () => {
+const Main = () => {
   useEffect(() => {
     new Start();
   }, []);
