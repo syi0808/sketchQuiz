@@ -1,12 +1,17 @@
-import React, { useEffect, useRef } from "react";
-import Start from "../../socket/obj/Start";
+import React, { useState } from 'react'
 
 const Main = () => {
-  useEffect(() => {
-    new Start();
-  }, []);
+  const [nickname, setName] = useState("")
 
-  return <></>;
-};
+  const onChangeName = e => {
+    setName(e.target.value)
+  }
+  
+  return (
+    <>
+      
+    </>
+  )
+}
 
-export default Main;
+export default Main
