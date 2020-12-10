@@ -18,7 +18,7 @@ const Main = () => {
   
   return (
     <S.Wrapper>
-      <G.Title gra center fontSize="44px" fontWeight={600} margin="15px auto">SketchQuiz</G.Title>
+      <G.Title gra center fontSize="100px" fontWeight={600} margin="15px auto">SketchQuiz</G.Title>
       <S.InputWrapper>
         <S.FormEnter onSubmit={onSubmitEnter}>
           <S.InputName value={nickname} onChange={onChangeName} />
